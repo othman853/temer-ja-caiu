@@ -1,0 +1,157 @@
+body {
+  background-image: url('pega-fogo-cabare.jpg');
+  background-size: 500px;
+}
+
+.is-full-sized {
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.is-flex-vertical {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.is-flex-centered {
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-centers-horizontal {
+  justify-content: space-around;
+}
+
+.flex-centers-vertical {
+  align-content: center;
+}
+
+.is-flex-horizontal-centered {
+  align-self: center;
+}
+
+.has-black-background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.is-background {
+  z-index: -100;
+}
+
+.has-text-centered {
+  text-align: center;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 3px 3px green;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 3px 3px green;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.paragraph {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 2px 2px green;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.obra-tupiniquim {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen
+  and (min-device-width: 1440px)
+  and (max-device-width: 2560px) {
+  .headline {
+    font-size: 4em;
+  }
+
+  .subtitle {
+    font-size: 2.5em;
+  }
+
+  .obra-tupiniquim {
+    height: 430px;
+    width: 430px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 1025px)
+  and (max-device-width: 1439px) {
+  .headline {
+    font-size: 4em;
+  }
+
+  .subtitle {
+    font-size: 2.2em;
+  }
+
+  .obra-tupiniquim {
+    height: 430px;
+    width: 430px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 800px)
+  and (max-device-width: 1024px) {
+  .headline {
+    font-size: 7em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+
+  .obra-tupiniquim {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 799px) {
+
+  body {
+    background-size: 300px;
+  }
+
+  .headline {
+    font-size: 3em;
+    text-shadow: 1.5px 1.5px green;
+  }
+
+  .subtitle {
+    font-size: 2em;
+  }
+
+  .paragraph {
+    font-size: 1em;
+  }
+}
