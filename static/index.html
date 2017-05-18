@@ -6,9 +6,17 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style media="screen">
       html {
+        width: 100%;
         height: 100%;
+        margin: 0;
+        padding: 0;
       }
       body {
+        margin: 0;
+        padding: 0;
+        background-image: url('pega-fogo-cabare.jpg');
+        background-size: 500px;
+        background-repeat: repeat;
         font-family: 'Open Sans', sans-serif;;
         height: 100%;
         text-align: center;
@@ -17,15 +25,33 @@
         justify-content: center;
       }
 
+      .full {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+
+      }
+
       h1 {
+        font-weight: bold;
+        color: yellow;
+        text-shadow: 3px 3px green;
         font-size: 5em;
         align-self: center;
         text-transform: uppercase;
       }
 
       h2 {
+        color: yellow;
+        text-shadow: 3px 3px green;
         font-size: 2em;
         text-transform: uppercase;
+      }
+
+      p {
+        color: yellow;
+        text-shadow: 1px 1px green;
       }
 
       iframe {
@@ -34,13 +60,14 @@
     </style>
   </head>
   <body>
+    <div class="full">
+      <h1 class="title is-1">Temer Já caiu?</h1>
+      <h2>Ainda não :(</h2>
 
-    <h1 class="title is-1">Temer Já caiu?</h1>
-    <h2>Ainda não :(</h2>
+      <p>Enquanto isso, aguarde ao som desta brilhante obra tupiniquim: </p>
 
-    <p>Enquanto isso, aguarde ao som desta brilhante obra tupiniquim: </p>
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTimeCiroGomes%2Fvideos%2F1756002634692009%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTimeCiroGomes%2Fvideos%2F1756002634692009%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-
+    </div>
   </body>
 </html>
